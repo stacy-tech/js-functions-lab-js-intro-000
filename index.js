@@ -1,9 +1,11 @@
 function happyHoliday(){
-  return "Happy holidays!"
+  return "Happy holidays!":
 }
-function happyHolidaysTo(name){
-  return `Happy holidays,${name}!`
+function happyHolidaysTo(stacy){
+  return `Happy holidays, ${stacy}!`
 }
-function happyCustomHolidayTo(holiday, name){
-  return `Happy ${holiday}`,${name}!`
+function happyCustomHolidayTo(birthday,stacy){
+  return `Happy ${holiday},${stacy}!`
 }
+function holidayCountdown(birthday,8){
+  return 'its ${8} days until ${birthday}!'
